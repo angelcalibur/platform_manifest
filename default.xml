@@ -510,8 +510,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
-
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="mm6.0" />
 
@@ -538,7 +536,7 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
-
+  
   <!--JDCTeam additions-->
   
   <!--Device tree-->
@@ -551,6 +549,6 @@
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
   
   <!--Selfupdate the manifest-->
-  <project path="platform_manifest" name="angelcalibur/platform_manifest-1" remote="github" revision="slim6" />
+  <project path="platform_manifest" name="dkati/platform_manifest-1" remote="github" revision="slim6" />
 
 </manifest>
