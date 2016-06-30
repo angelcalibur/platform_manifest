@@ -549,6 +549,6 @@
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
   
   <!--Selfupdate the manifest-->
-  <project path="platform_manifest" name="angelcalibur/platform_manifest-1" remote="github" revision="slim6" />
+  <project path="platform_manifest" name="angelcalibur/platform_manifest" remote="github" revision="slim6" />
 
 </manifest>
