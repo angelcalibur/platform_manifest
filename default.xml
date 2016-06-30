@@ -385,7 +385,7 @@
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="mm6.0" />
@@ -393,7 +393,7 @@
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="mm6.0" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="SlimRoms/packages_apps_ExactCalculator" remote="github" revision="mm6.0" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="mm6.0" />
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" remote="github" revision="mm6.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
@@ -539,17 +539,18 @@
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
-    <!-- Device tree -->
-  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="slim6" />
-  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
- 
-   <!-- Kernel -->
-  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-6.0-test" />
-
-   <!-- Hardware Samsung -->
-  <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-6.0-test" />
-	
-   <!-- Vendor -->
-   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
+  <!--JDCTeam additions-->
   
+  <!--Device tree-->
+  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" revision="slim6" />
+  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
+  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-6.0-test" />
+  
+  <!--Vendor-->
+  <project path="vendor/jdc" name="AOSP-JF-MM/platform_vendor_aosp" revision="slim6" />
+  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
+  
+  <!--Selfupdate the manifest-->
+  <project path="platform_manifest" name="angelcalibur/platform_manifest-1" remote="github" revision="slim6" />
+
 </manifest>
