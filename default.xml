@@ -295,7 +295,8 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="mm6.0" />
+  <<!--project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="mm6.0" />-->
+  <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-6.0-test-caf" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
@@ -545,7 +546,7 @@
   <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
   
   <!--Vendor-->
-  <!--<project path="vendor/jdc" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="slim6" />-->
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="slim6" />
   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
   
   <!--Selfupdate the manifest-->
