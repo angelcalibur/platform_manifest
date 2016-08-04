@@ -548,8 +548,10 @@
    <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-6.0-test" />
    <!--project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-6.0" />-->
   <!--Kernel-->
-   <project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-6.0" />
-   <project path="kernel/samsung/Ramdisk" name="B--B/Ramdisk" remote="github" revision="aosp-6.0" />
+   <project path="alucard/kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
+   <project path="alucard/kernel/arm-linux-5.3-gnueabihf" name="B--B/Custom_Toolchains" remote="github" revision="arm-linux-5.3-gnueabihf" />
+   <project path="alucard/kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-6.0" />
+   <project path="alucard/kernel/samsung/Ramdisk" name="B--B/Ramdisk" remote="github" revision="aosp-6.0" />
   <!--Device tree-->
   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="slim6" />
   <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="slim6" />
