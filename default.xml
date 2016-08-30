@@ -337,7 +337,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0" />
+  <!--project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0" />-->
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8660" />
@@ -383,8 +383,8 @@
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />
+  <!--project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />-->
+  <!--project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0" />-->
   <project path="packages/apps/CarrierConfig" name="SlimRoms/packages_apps_CarrierConfig" remote="github" revision="mm6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -401,7 +401,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="github" revision="mm6.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <!--project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />-->
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="mm6.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
@@ -545,21 +545,26 @@
    <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-6.0-test" />
    <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-6.0-test" />
    <!--project path="packages/apps/CarrierConfig" name="AOSP-JF-MM/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-6.0" />-->
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="AOSP-JF-MM/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <project path="packages/apps/SnapdragonCamera" name="AOSP-JF-MM/packages_apps_SnapdragonCamera" remote="github" revision="aosp-6.0-test" />
   <!--Kernel-->
    <project path="alucard/kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
    <project path="alucard/kernel/arm-linux-5.3-gnueabihf" name="B--B/Custom_Toolchains" remote="github" revision="arm-linux-5.3-gnueabihf" />
    <project path="alucard/kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-6.0" />
    <project path="alucard/kernel/samsung/Ramdisk" name="B--B/Ramdisk" remote="github" revision="aosp-6.0" />
   <!--Device tree-->
-  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="slim6" />
-  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="slim6" />
-  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
+   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="slim6" />
+   <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="slim6" />
+   <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
   
   <!--Vendor-->
-  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="slim6" />
-  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
+   <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="slim6" />
+   <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
   
   <!--Selfupdate the manifest-->
-  <project path="platform_manifest" name="angelcalibur/platform_manifest" remote="github" revision="mm6.0" />
+   <project path="platform_manifest" name="angelcalibur/platform_manifest" remote="github" revision="mm6.0" />
 
 </manifest>
