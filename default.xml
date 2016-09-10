@@ -579,7 +579,7 @@
   <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="github" revision="staging/cm-14.0" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" revision="staging/cm-14.0" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="staging/cm-14.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="staging/cm-14.0" />
+  <!--project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="staging/cm-14.0" />-->
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="staging/cm-14.0" />
 
   <!-- More vendor additions -->
