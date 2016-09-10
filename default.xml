@@ -360,6 +360,7 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8960-7.0-test" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" remote="github" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
@@ -368,12 +369,14 @@
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-7.0-test" />
   <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" remote="github" revision="ng7.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-7.0-test" />
   <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" remote="github" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" remote="github" revision="ng7.0-caf-8994" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -539,7 +542,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="ng7.0" />
+  <project path="platform_manifest" name="angelcalibur/platform_manifest" remote="github" revision="ng7.0" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="ng7.0" />
@@ -553,4 +556,34 @@
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.0" />
 
+  <!-- Device tree -->
+  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-7.0-test" />
+  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-7.0-test" />
+  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-7.0-test" />
+
+  <!-- Vendor -->
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-7.0-test" />
+  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.0-test" />
+
+  <!-- CodeAurora additions -->
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="github" revision="staging/cm-14.0" />
+  <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-7.0-test" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="staging/cm-14.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="staging/cm-14.0" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="staging/cm-14.0" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="github" revision="staging/cm-14.0" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" revision="staging/cm-14.0" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="staging/cm-14.0" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="staging/cm-14.0" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="staging/cm-14.0" />
+
+  <!-- More vendor additions -->
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="staging/cm-14.0" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="staging/cm-14.0" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="staging/cm-14.0" />
 </manifest>
