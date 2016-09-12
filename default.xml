@@ -556,7 +556,7 @@
    <project path="alucard/kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-6.0" />
    <project path="alucard/kernel/samsung/Ramdisk" name="B--B/Ramdisk" remote="github" revision="aosp-6.0" />
   <!--Device tree-->
-   <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="slim6" />
+   <project path="kernel/samsung/jf" name="SlimRoms/kernel_samsung_jf" remote="github" revision="mm6.0" />
    <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="slim6" />
    <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
   
